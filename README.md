@@ -1,12 +1,12 @@
 # Image_Classification
-The Project was done using Big Data Tools like for the Data Storage- MongoDB  and  for the Data Pre-processing - Apache Spark also the image  has been classified using the Convolution Neural Network(CNN) and has been Deployed  with Gradio.
+The Project was done using Big Data Tools, such as MongoDB for Data Storage and Apache Spark for Data Preprocessing. The image was classified using a Convolution Neural Network(CNN) and Deployed  with Gradio.
 
 # Running Setup
-Healthy Vs Rotten Fruits and Vegetables Detection
+Healthy Vs Rotten Fruits and Vegetable Detection
 DATA 603 - FINAL PROJECT
 
 Problem Statement:
-The project aims to create a machine learning model that can identify photos of fruits and vegetables as healthy or unhealthy. Using deep learning techniques and Convolutional Neural Networks (CNN), the model is trained with TensorFlow and Keras on a labeled dataset containing a wide range of fruits and vegetables in both healthy and rotten states. The project enables real-time predictions, allowing users to upload images of fruits and vegetables for classification.
+The project aims to create a machine-learning model to identify photos of healthy or unhealthy fruits and vegetables. Using deep learning techniques and Convolutional Neural Networks (CNN), the model is trained with TensorFlow and Keras on a labeled dataset containing a wide range of fruits and vegetables in both healthy and rotten states. The project enables real-time predictions, allowing users to upload images of fruits and vegetables for classification.
 
 Key Components of the Project:
 Dataset:
@@ -19,8 +19,8 @@ Validation Set: Used during training to tune model parameters and prevent overfi
 Model (fruitmodel.h5):
 
 The model uses the EfficientNetV2_B3 architecture, a highly efficient convolutional neural network (CNN) designed for image classification tasks.
-EfficientNetV2_B3 offers a balance between accuracy and computational efficiency, utilizing advanced techniques like Fused-MBConv layers and scalable algorithms.
-The model is pre-trained on the ImageNet dataset, making it suitable for transfer learning. The trained model, fruitmodel.h5, is fine-tuned to classify images of healthy and rotten fruits and vegetables.
+EfficientNetV2_B3 balances accuracy and computational efficiency, utilizing advanced techniques like Fused-MBConv layers and scalable algorithms.
+The model is pre-trained on the ImageNet dataset, making it suitable for transfer learning. The trained model, fruit model.h5, is fine-tuned to classify images of healthy and rotten fruits and vegetables.
 Jupyter Notebook:
 
 The notebook contains the full workflow, from data preprocessing to model training and evaluation.
@@ -132,3 +132,6 @@ iface = gr.Interface(fn=predict_image,
 iface.launch()
 
 Thank You!
+
+
+
